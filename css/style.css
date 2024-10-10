@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containerTop, .containerBottom{
+    width: 610px;
+    height: 275px;
+    margin: 0 auto;
+    display: flex;  
+}
+
+.containerBottom{
+    flex-direction: row-reverse;
+}
+
+.left{
+   width: 44%;
+   display: flex;  
+}
+
+.right{
+    width: 56%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left .block{
+    width: 100%;
+}
+
+.block{
+    background-color: #42428e;
+    min-width: 160px;
+    margin: 5px;
+    padding: 40px;
+    text-align: center;
+}
